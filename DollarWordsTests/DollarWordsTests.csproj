@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DollarWords">
-      <HintPath>..\LetterValues\bin\Debug\DollarWords.exe</HintPath>
+      <HintPath>..\DollarWords\bin\Debug\DollarWords.exe</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

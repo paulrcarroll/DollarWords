@@ -11,7 +11,7 @@ namespace DollarWordsTests
         public void LetterAEvaluatesTo1()
         {
             int expectedIndex = 1;
-            int actualIndex = StringHelper.GetIndexInAlphabet('a');
+            int actualIndex = 'a'.AlphabeticIndex();
 
             Assert.AreEqual(expectedIndex, actualIndex, "The letter 'a' does not evaluate to index 1.");
         }
@@ -20,7 +20,7 @@ namespace DollarWordsTests
         public void LetterZEvaluatesTo26()
         {
             int expectedIndex = 26;
-            int actualIndex = StringHelper.GetIndexInAlphabet('z');
+            int actualIndex = 'z'.AlphabeticIndex();
 
             Assert.AreEqual(expectedIndex, actualIndex, "The letter 'z' does not evaluate to index 26.");
         }
@@ -29,7 +29,7 @@ namespace DollarWordsTests
         public void WhitespaceEvaluatesToZero()
         {
             int expectedIndex = 0;
-            int actualIndex = StringHelper.GetIndexInAlphabet(' ');
+            int actualIndex = ' '.AlphabeticIndex();
 
             Assert.AreEqual(expectedIndex, actualIndex, "Whitespace does not evaluate to index 0.");
         }
@@ -38,7 +38,7 @@ namespace DollarWordsTests
         public void NumbersEvaluateToZero()
         {
             int expectedIndex = 0;
-            int actualIndex = StringHelper.GetIndexInAlphabet('1');
+            int actualIndex = '1'.AlphabeticIndex();
 
             Assert.AreEqual(expectedIndex, actualIndex, "Numbers do not evaluate to index 0.");
         }
@@ -46,7 +46,7 @@ namespace DollarWordsTests
         [TestMethod]
         public void IsCaseInsensitive()
         {
-            Assert.AreEqual(StringHelper.GetIndexInAlphabet('a'), StringHelper.GetIndexInAlphabet('A'), "The letter 'a' does not evaluate to the same index as the capital letter 'A'.");
+            Assert.AreEqual('a'.AlphabeticIndex(), 'A'.AlphabeticIndex(), "The letter 'a' does not evaluate to the same index as the capital letter 'A'.");
         }
 
         [TestMethod]
