@@ -1,7 +1,0 @@
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\bin\Debug\LetterValuesTests.dll
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\bin\Debug\LetterValuesTests.pdb
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\bin\Debug\LetterValues.exe
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\bin\Debug\LetterValues.pdb
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\obj\Debug\LetterValuesTests.csprojResolveAssemblyReference.cache
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\obj\Debug\LetterValuesTests.dll
-C:\Users\e5001991\Documents\Visual Studio 2013\Projects\LetterValues\LetterValuesTests\obj\Debug\LetterValuesTests.pdb
