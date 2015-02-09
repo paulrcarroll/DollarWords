@@ -1,4 +1,4 @@
-# lettervalues
+# Dollar Words
 
 Simple console app for DFA code test
 
